@@ -23,12 +23,13 @@ According to lazy docs, first version is proper because the second one is mostly
 ```lua
 return{
     opts = {
-
+        "options"
     },
     -- this is bad example, but I think you understand what I mean
     var = (
         5 + 6
     )
+}
 ```
 but I prefer this
 ```lua
@@ -36,11 +37,11 @@ return
 {
     opts =
     {
-
+        "options"
     },
     var =
     (
-            5 + 6
+        5 + 6
     )
 }
 ```
